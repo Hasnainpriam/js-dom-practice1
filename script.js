@@ -48,3 +48,9 @@ document.getElementById('plus-button').addEventListener('click',function(){
     button.setAttribute('disabled',true);
   }
 })
+
+numArray=[12,1,44,98,65,77,4,49];
+newA=numArray.sort(function(a,b){
+  return a-b;
+});
+console.log(newA);
